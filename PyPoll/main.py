@@ -52,8 +52,8 @@ print("--------------------------")
 print(f"Winner: {winning_candidate}")
 print("--------------------------")
 
-# Exporting to .csv file
-output = open("output.csv", "w")
+# Exporting to .txt file
+output = open("output.txt", "w")
 line1 = "Election Results"
 line2 = "--------------------------"
 line3 = str(f"Total Votes: {str(total_votes)}")

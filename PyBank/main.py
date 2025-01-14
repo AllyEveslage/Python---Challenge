@@ -63,9 +63,8 @@ print(f"Average Change: ${str(round(avg_change,2))}")
 print(f"Greatest Increase in Profits: {greatest_date} (${str(greatest_increase)})")
 print(f"Greatest Decrease in Profits: {worst_date} (${str(greatest_decrease)})")
 
-#Showing the code where to write the results of this code
-output = open("output.csv", "w")
-
+#Showing the code where to write the results of this code (writing in .txt)
+output = open("output.txt", "w")
 line1 = "Financial Analysis"
 line2 = "---------------------"
 line3 = str(f"Total Months: {str(months)}")
